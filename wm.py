@@ -1,6 +1,6 @@
-number = int(input("Enter a number: "))
+weight = int(input())
  
-if number % 2 == 0:
+if weight%2 == 0 and weight!=2:
    print("YES")
 else:
     print("NO")
